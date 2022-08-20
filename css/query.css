@@ -161,6 +161,12 @@
 }
 
 @media(max-width:570px){
+    .section-hero{
+        background-image: none;
+    }
+    .hero-left{
+        width: 100%;
+    }
     html{
         font-size: 37.5%;
     }
@@ -173,7 +179,7 @@
         width: 70%;
     }
     .design-text{
-        width: 80%;
+        width: 70%;
     }
     .service-card{
         width: 75%;
@@ -196,13 +202,28 @@
     .feedback-card-text{
         margin-top: 2rem;
     }
+    .footer-end{
+        width: 50%;
+        padding-bottom: 4rem;
+       }
+       .footet-head{
+       text-align: left;
+       padding-left: 0;
+       }
 }
 @media(max-width:400px){
+    .section-hero{
+        background-image: none;
+    }
+    .hero-left{
+        width: 100%;
+    }
     .service-card{
         width: 50%;
     }
     .prt-image{
         width: 75%;
+        padding-right: 2rem;
     }
     .prt-image img{
         width: 100%;
@@ -225,6 +246,41 @@
    .service-heading{
     width: 50%;
    }
+}
+@media(max-width:450px){
+    .section-hero{
+        background-image: none;
+    }
+    .hero-left{
+        width: 100%;
+    }
+    .service-card{
+        width: 58%;
+    }
+    .prt-image{
+        width: 80%;
+    }
+    .prt-image img{
+        width: 100%;
+    }
+    .feedback-cards{
+        width: 58%;
+    }
+    .company-logos{
+        width: 60%;
+    }
+    .sign-up-content{
+        width: 58%;
+    }
+   .designing-left{
+    width: 75%;
+   }
+   .design-text{
+    width: 65%;
+   }
+   .service-heading{
+    width: 58%;
+   }
    .footer-end{
     width: 50%;
     padding-bottom: 4rem;
@@ -232,6 +288,9 @@
    .footet-head{
    text-align: left;
    padding-left: 0;
+   }
+   .heading-footer{
+    font-size: 3rem;
    }
 }
 
