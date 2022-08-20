@@ -69,8 +69,9 @@
     .section-hero{
         background-image: none;
     }
-    .hero-left{
-        width: 100%;
+    .hero-section{
+        display: grid;
+        grid-template-columns: 1fr;
     }
    .hero-text{
     width: 80%;
@@ -120,7 +121,7 @@
         margin-bottom: 4rem;
     }
     .portfolio-image{
-        width: 72%;
+        width: 70%;
     }
     .first-contact-section{
         display: grid;
