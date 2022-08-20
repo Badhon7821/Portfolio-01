@@ -66,6 +66,12 @@
 }
 
 @media(max-width:700px){
+    .section-hero{
+        background-image: none;
+    }
+    .hero-left{
+        width: 100%;
+    }
    .hero-text{
     width: 80%;
    }
