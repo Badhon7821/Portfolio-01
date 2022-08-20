@@ -1,0 +1,138 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+
+
+/* 
+***font-size
+-10,16,20,26,32,48,64,80,96
+
+***color
+-#E3E4E8,#FFFFFF,#EC5B53,#dc3545,#002D5B,#B5B6B5,#10285D
+
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: 0;
+    border: 0;
+   
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+     /* font-family: 'Poppins', sans-serif; */
+     font-family: 'Rufina', serif;
+     overflow-x: hidden;
+     width: 100vw;
+}
+
+/* *********************General Style *******************/
+.nav-container{
+    padding: 0 3.2rem;
+}
+.container{
+    width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+
+.grid{
+    display: grid;
+    row-gap: 3.2rem;
+    column-gap: 4.8rem;
+}
+.grid-2-column{
+    grid-template-columns: 1fr 1fr;
+}
+.grid-3-column{
+    grid-template-columns: repeat(3,1fr);
+}
+.btn{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    padding: 1.5rem 2.2rem;
+}
+.btn-primary:link,
+.btn-primary:visited{
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    background-color: #EB5B52;
+    box-shadow: inset 0 0 0 0 #dc3545;
+    transition: ease-in-out 0.5s;
+    
+}
+.btn-primary-hero{
+    width: 220px;
+}
+.btn-primary:hover,
+.btn-primary:active{
+    box-shadow: inset 250px 0 0 0 #dc3545;
+}
+.btn-secondary:link,
+.btn-secondary:visited{
+    border: 0.5px solid rgb(166, 148, 148);
+    box-shadow: inset 0 0 0 0 #dc3545;
+    transition: ease-in-out 0.5s;
+    color: #002D5B;
+    width: 200px;
+}
+
+
+.btn-secondary:hover,
+.btn-secondary:active{
+    box-shadow: inset 0 55px 0 0 #dc3545;
+}
+
+.heading-primary{
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+    color: #002D5B;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.heading-secondary{
+    font-size: 4.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+    /* color: rgba(0, 0, 0, 0.9); */
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+.heading-tertiary{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.9);
+}
+.text-muted{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #10285D;
+    margin-bottom: 4rem;
+    line-height: 2;
+}
+.margin-bottom-md{
+    margin-bottom: 2rem !important;
+}
